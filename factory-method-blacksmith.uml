@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dp.creational.factorymethod.blacksmith</OriginalElement>
+  <nodes>
+    <node x="296.0599386724386" y="321.0">com.dp.creational.factorymethod.blacksmith.Weapon</node>
+    <node x="0.0" y="589.0">com.dp.creational.factorymethod.blacksmith.OrcBlackSmith</node>
+    <node x="385.99999999999994" y="460.0">com.dp.creational.factorymethod.blacksmith.BlackSmith</node>
+    <node x="638.48851010101" y="589.0">com.dp.creational.factorymethod.blacksmith.ElfBlackSmith</node>
+    <node x="733.0" y="436.0">com.dp.creational.factorymethod.blacksmith.ElfWeapon</node>
+    <node x="507.0599386724386" y="0.0">com.dp.creational.factorymethod.blacksmith.WeaponType</node>
+    <node x="408.9908910533909" y="718.0">com.dp.creational.factorymethod.blacksmith.BlackSmithApp</node>
+    <node x="54.488510101010036" y="436.0">com.dp.creational.factorymethod.blacksmith.OrcWeapon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmithApp" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="103.33333333333337" y="-74.5" />
+      <point x="636.3242243867243" y="698.0" />
+      <point x="1013.98851010101" y="698.0" />
+      <point x="1013.98851010101" y="261.0" />
+      <point x="743.7872113997114" y="261.0" />
+      <point x="112.72727272727275" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcWeapon" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="0.0" y="-51.5" />
+      <point x="162.48851010101004" y="416.0" />
+      <point x="142.38098845598842" y="416.0" />
+      <point x="142.38098845598842" y="291.0" />
+      <point x="585.9690295815294" y="291.0" />
+      <point x="-45.09090909090912" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfBlackSmith" target="com.dp.creational.factorymethod.blacksmith.BlackSmith">
+      <point x="-156.42857142857144" y="-39.5" />
+      <point x="664.5599386724386" y="564.0" />
+      <point x="671.25" y="564.0" />
+      <point x="122.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfBlackSmith" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="-104.28571428571428" y="-39.5" />
+      <point x="716.7027958152958" y="564.0" />
+      <point x="722.5" y="564.0" />
+      <point x="722.5" y="406.0" />
+      <point x="440.0599386724386" y="406.0" />
+      <point x="48.0" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmithApp" target="com.dp.creational.factorymethod.blacksmith.OrcBlackSmith">
+      <point x="-103.33333333333337" y="-74.5" />
+      <point x="429.6575577200575" y="698.0" />
+      <point x="182.5" y="698.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmithApp" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="-62.0" y="-74.5" />
+      <point x="470.9908910533909" y="688.0" />
+      <point x="375.49999999999994" y="688.0" />
+      <point x="-16.0" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcBlackSmith" target="com.dp.creational.factorymethod.blacksmith.BlackSmith">
+      <point x="156.42857142857144" y="-39.5" />
+      <point x="338.92857142857144" y="564.0" />
+      <point x="426.74999999999994" y="564.0" />
+      <point x="-122.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.Weapon" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="0.0" y="-27.5" />
+      <point x="392.0599386724386" y="301.0" />
+      <point x="608.5144841269841" y="301.0" />
+      <point x="-22.545454545454504" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfBlackSmith" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="104.28571428571433" y="-39.5" />
+      <point x="925.2742243867244" y="564.0" />
+      <point x="969.7408910533909" y="564.0" />
+      <point x="969.7408910533909" y="281.0" />
+      <point x="698.6963023088024" y="281.0" />
+      <point x="67.63636363636374" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcBlackSmith" target="com.dp.creational.factorymethod.blacksmith.OrcWeapon">
+      <point x="-52.14285714285711" y="-39.5" />
+      <point x="130.3571428571429" y="564.0" />
+      <point x="90.48851010101004" y="564.0" />
+      <point x="-72.0" y="51.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmithApp" target="com.dp.creational.factorymethod.blacksmith.ElfBlackSmith">
+      <point x="62.0" y="-74.5" />
+      <point x="594.9908910533909" y="688.0" />
+      <point x="820.98851010101" y="688.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcBlackSmith" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="-104.28571428571433" y="-39.5" />
+      <point x="78.21428571428567" y="564.0" />
+      <point x="43.98851010101009" y="564.0" />
+      <point x="43.98851010101009" y="271.0" />
+      <point x="540.8781204906204" y="271.0" />
+      <point x="-90.18181818181824" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcWeapon" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="72.0" y="-51.5" />
+      <point x="234.48851010101004" y="406.0" />
+      <point x="312.0599386724386" y="406.0" />
+      <point x="-80.0" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfWeapon" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="0.0" y="-51.5" />
+      <point x="841.0" y="416.0" />
+      <point x="858.5626984126983" y="416.0" />
+      <point x="858.5626984126983" y="301.0" />
+      <point x="653.6053932178932" y="301.0" />
+      <point x="22.545454545454504" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmithApp" target="com.dp.creational.factorymethod.blacksmith.BlackSmith">
+      <point x="-20.66666666666663" y="-74.5" />
+      <point x="512.3242243867243" y="698.0" />
+      <point x="528.0508297258295" y="698.0" />
+      <point x="528.0508297258295" y="564.0" />
+      <point x="508.24999999999994" y="564.0" />
+      <point x="-40.75" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfBlackSmith" target="com.dp.creational.factorymethod.blacksmith.ElfWeapon">
+      <point x="-52.14285714285711" y="-39.5" />
+      <point x="-72.0" y="51.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmith" target="com.dp.creational.factorymethod.blacksmith.WeaponType">
+      <point x="81.5" y="-27.5" />
+      <point x="630.5" y="416.0" />
+      <point x="648.0626984126982" y="416.0" />
+      <point x="648.0626984126982" y="301.0" />
+      <point x="631.0599386724386" y="301.0" />
+      <point x="0.0" y="120.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.OrcBlackSmith" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="104.28571428571433" y="-39.5" />
+      <point x="286.78571428571433" y="564.0" />
+      <point x="303.8365440115438" y="564.0" />
+      <point x="303.8365440115438" y="416.0" />
+      <point x="344.0599386724386" y="416.0" />
+      <point x="-48.0" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.ElfWeapon" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="-72.0" y="-51.5" />
+      <point x="769.0" y="396.0" />
+      <point x="472.0599386724386" y="396.0" />
+      <point x="80.0" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.factorymethod.blacksmith.BlackSmith" target="com.dp.creational.factorymethod.blacksmith.Weapon">
+      <point x="-81.5" y="-27.5" />
+      <point x="467.49999999999994" y="416.0" />
+      <point x="408.0599386724386" y="416.0" />
+      <point x="16.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="587.5" y="483.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
