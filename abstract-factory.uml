@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dp.creational.abstractfactory.kingdom</OriginalElement>
+  <nodes>
+    <node x="0.0" y="403.0">com.dp.creational.abstractfactory.kingdom.ElfCastle</node>
+    <node x="403.0" y="403.0">com.dp.creational.abstractfactory.kingdom.OrcKing</node>
+    <node x="94.5" y="503.0">com.dp.creational.abstractfactory.kingdom.Army</node>
+    <node x="509.5" y="0.0">com.dp.creational.abstractfactory.kingdom.KingdomFactory</node>
+    <node x="403.0" y="503.0">com.dp.creational.abstractfactory.kingdom.KingdomType</node>
+    <node x="0.0" y="608.0">com.dp.creational.abstractfactory.kingdom.ElfArmy</node>
+    <node x="395.0" y="151.0">com.dp.creational.abstractfactory.kingdom.OrcKingdomFactory</node>
+    <node x="94.5" y="298.0">com.dp.creational.abstractfactory.kingdom.Castle</node>
+    <node x="592.0" y="403.0">com.dp.creational.abstractfactory.kingdom.ElfKing</node>
+    <node x="19.5" y="0.0">com.dp.creational.abstractfactory.kingdom.KingdomApp</node>
+    <node x="497.5" y="298.0">com.dp.creational.abstractfactory.kingdom.King</node>
+    <node x="0.0" y="198.0">com.dp.creational.abstractfactory.kingdom.KingdomApp.FactoryMaker</node>
+    <node x="624.0" y="151.0">com.dp.creational.abstractfactory.kingdom.ElfKingdomFactory</node>
+    <node x="189.0" y="608.0">com.dp.creational.abstractfactory.kingdom.OrcArmy</node>
+    <node x="189.0" y="403.0">com.dp.creational.abstractfactory.kingdom.OrcCastle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dp.creational.abstractfactory.kingdom.ElfKing" target="com.dp.creational.abstractfactory.kingdom.King">
+      <point x="0.0" y="-27.5" />
+      <point x="676.5" y="378.0" />
+      <point x="624.25" y="378.0" />
+      <point x="42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.ElfArmy" target="com.dp.creational.abstractfactory.kingdom.Army">
+      <point x="0.0" y="-27.5" />
+      <point x="84.5" y="583.0" />
+      <point x="136.75" y="583.0" />
+      <point x="-42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.KingdomApp.FactoryMaker" target="com.dp.creational.abstractfactory.kingdom.KingdomApp">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.ElfCastle" target="com.dp.creational.abstractfactory.kingdom.Castle">
+      <point x="0.0" y="-27.5" />
+      <point x="84.5" y="378.0" />
+      <point x="136.75" y="378.0" />
+      <point x="-42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.OrcKing" target="com.dp.creational.abstractfactory.kingdom.King">
+      <point x="0.0" y="-27.5" />
+      <point x="487.5" y="378.0" />
+      <point x="539.75" y="378.0" />
+      <point x="-42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.OrcKingdomFactory" target="com.dp.creational.abstractfactory.kingdom.KingdomFactory">
+      <point x="0.0" y="-50.5" />
+      <point x="499.5" y="126.0" />
+      <point x="561.75" y="126.0" />
+      <point x="-52.25" y="50.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.OrcArmy" target="com.dp.creational.abstractfactory.kingdom.Army">
+      <point x="0.0" y="-27.5" />
+      <point x="273.5" y="583.0" />
+      <point x="221.25" y="583.0" />
+      <point x="42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.OrcCastle" target="com.dp.creational.abstractfactory.kingdom.Castle">
+      <point x="0.0" y="-27.5" />
+      <point x="273.5" y="378.0" />
+      <point x="221.25" y="378.0" />
+      <point x="42.25" y="27.5" />
+    </edge>
+    <edge source="com.dp.creational.abstractfactory.kingdom.ElfKingdomFactory" target="com.dp.creational.abstractfactory.kingdom.KingdomFactory">
+      <point x="0.0" y="-50.5" />
+      <point x="728.5" y="126.0" />
+      <point x="666.25" y="126.0" />
+      <point x="52.25" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9531478770131772" x="416.5" y="331.5" />
+  <SelectedNodes>
+    <node>com.dp.creational.abstractfactory.kingdom.OrcCastle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

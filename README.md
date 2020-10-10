@@ -85,4 +85,17 @@ Interfaces and Abstract class are based on Abstraction and Encapsultation.
    - Concrete sub class extends creator and override the CreateProduct() factory method.
       <p> Concrete Creators override the base factory method so it returns a different type of product</p>
 
+#### Abstract Factory
+
+   ***a.k.a Kit***
+    <p>
+    Creational patterns that provides an interface for creating similiar / family objects in a
+    superclass, but allows subclasses to alter the type of the objects that will be created.   </p>
+  - Structure:
+    - Abstract Products - Interfaces --> set of distinct related products
+    - Concrete product implementing products interfaces. 
+    - Abstract Factory interface declares a set of methods for creating each of the abstract products.
+    - Concrete Factories - implement creation methods of the Abstract Factory.
+    - Although concrete factories instantiate concrete products -> must return abstract products.
+        Client Code uses the factory doesnt get coupled to the specific variant of the product it gets from a factory.
 ---
