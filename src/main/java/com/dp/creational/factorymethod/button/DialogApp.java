@@ -19,7 +19,7 @@ public class DialogApp {
   }
 
   public static void main(String[] args) {
-    DialogApp.initialize("WEB");
+    DialogApp.initialize("WIN");
     dialog.render();
   }
 }

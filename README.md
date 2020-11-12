@@ -1,13 +1,13 @@
 ### Dive Into Design Patterns
 
-####Basics of OOP
+#### Basics of OOP
 1. Objects -> data and behaviour in a bundle.
 2. data - state
 3. behaviour - methods
 
 class is blueprint to constructs objects.
 ---
-####UML:
+#### UML:
 1. Fields (state)
 2. Methods (behaviour)
 3. '+ public
@@ -18,7 +18,7 @@ class is blueprint to constructs objects.
 6. Collectively fields and methods can be referenced as the members of the class.
 7. Object - concerte instances of the class.
 ---
-####Class Hierarchies
+#### Class Hierarchies
 1. Dog and Cat ( Animal)  common state and behaviour is moved to parent class.
 2. parent class - super class
 3. children sub class
@@ -26,15 +26,15 @@ class is blueprint to constructs objects.
 5. sub classes can override the behaviour of methods that they inherit from parent. can either completely replace default behaviour or 
 enchance with some stuff.
 ---
-####Pillars of OOP
+#### Pillars of OOP
 1. Abstraction
 2. Polymorphism
 3. Encapsulation
 4. Inheritance
 
-#####Abstraction : 
+##### Abstraction : 
    model of real world objects
-#####Encapsulation: 
+##### Encapsulation: 
 Interface to under the hood. interface - public part of the object, open interactions with other objects.
    1. ability of an object to hide parts of its state and behavoiours from other objects.
    2. private- only accessible within the methods of its own class.
@@ -45,13 +45,13 @@ Interfaces and Abstract class are based on Abstraction and Encapsultation.
 1. Interface- define the contract with the object.
 2. Interface cares only about the behaviour of the object and cant declare the field in the interface.
 
-#####Inheritance
+##### Inheritance
 1. ability to build new classes on top of existing ones.
 2. code reuse.
 3. If a super class implements an interface, all of its sub classes must also implement it.
 4. sub class can extend only one superclass.
 ---
-###Relation with Objects
+### Relation with Objects
 
 1. **UML Association**
     <p>Association is a type of relationship in which one object uses or interacts with another.
